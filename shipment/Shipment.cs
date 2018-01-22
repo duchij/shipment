@@ -9,15 +9,18 @@ namespace shipment
     class Shipment
     {
 
-        private string companyName;
 
-        private 
-
-
-        public Shipment()
+        public Shipment(string name)
         {
-
+            
         }
+
+        public void addItem(Package item)
+        {
+            //item.packageProcess += new 
+        }
+
+
 
     }
 }
